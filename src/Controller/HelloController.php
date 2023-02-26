@@ -54,4 +54,12 @@ class HelloController
     {
         return new Response('Olá, canino!');
     }
+
+    #[Route('/roedor')]
+    public function roedor(): Response
+    {
+        return new Response('Olá, roedor!');
+    }
+
+
 }
